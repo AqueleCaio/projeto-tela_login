@@ -8,14 +8,18 @@
 }
 
 body{
-    background-color: rgb(86, 24, 145);
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(150, 23, 150);
+}
+
+body > img{
+    display: none
 }
 
 main{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.288);
     width: 300px;
-    height: 400px;
+    height: 360px;
     border-radius: 15px;
 
     padding: 10px;
@@ -45,10 +49,12 @@ main > header > h1{
 }
 
 main > form #isenha, main > form #iemail{
+    background-color: white;
     width: 87%;
     height: 35px;
     margin-bottom: 5px;
     border-radius: 10px;
+    border: 0px solid rgba(0, 0, 0, 0.863);
 }
 
 main > button, main > form .button{
