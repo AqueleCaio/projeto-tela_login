@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="estilos/media-query01.css" media="screen and (min-width: 290px) and  (max-width: 700px)">
+    <link rel="stylesheet" href="estilos/media-query02.css" media="screen and (min-width: 700px) and  (max-width: 1100px)">
+    <link rel="stylesheet" href="estilos/all-media.css" media="all">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Login</h1>
+            <p>
+                Seja bem vindo novamente. Faça o login ou cadastre-se para acessar sua conta e poder fazer as configurações no seu ambiente.
+            </p>
+        </header>
+        <form action="#" method="post">
+            <label for="iemail"><img src="imagens/icons8-nome-24.png" alt="icone do perfil"></label>
+            <input type="email" name="email" id="iemail" required maxlength="35" placeholder=" Email"> <br>
+
+            <label for="isenha"><img src="imagens/icons8-trancar-24.png" alt="icone de senha"></label>
+            <input type="password" name="senha" id="isenha" required minlength="8" maxlength="20" placeholder=" Senha (8-20)"> <br>
+
+            <input type="submit" value="Entrar" class="button">
+        </form>
+        <button><a href="tela-cadastrar.html" target="_parent" rel="follow"></a>Cadastrar</button>
+        <a href="#" target="_parent" rel="follow">Esquici minha senha</a>
+    </main>
+</body>
+</html>
