@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/* Estilo para aparelhos de celular */
+/* Configuração de estilo para aparelhos de celular */
 
 *{
     padding: 0px;
@@ -9,12 +9,13 @@
 
 body{
     background-color: rgb(86, 24, 145);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 main{
     background-color: white;
-    width: 50vw;
-    height: 96vh;
+    width: 300px;
+    height: 400px;
     border-radius: 15px;
 
     padding: 10px;

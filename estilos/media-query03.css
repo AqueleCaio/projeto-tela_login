@@ -1,17 +1,22 @@
 @charset "UTF-8";
 
-/* Configuração de estilo para aparelhos de tablet */
+/* Configurações de estilos para aparelhos de desktop */
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
 
 body{
-    background-color: rgb(86, 24, 145);
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(86, 24, 145);
 }
-   
-main{
 
+
+main{
     background-color: white;
-    width: 750px;
-    height: 400px;
+    width: 1100px;
+    height: 320px;
     border-radius: 15px;
 
     padding: 10px;
@@ -22,6 +27,7 @@ main{
     transform: translate(-50%, -50%);
 
     box-shadow: 1px 1px 20px black;
+
 }
 
 main > header > h1{
@@ -41,7 +47,7 @@ main > header > p{
 }
 
 main > form #isenha, main > form #iemail{
-    width: 94%;
+    width: 97%;
     height: 35px;
     margin-bottom: 5px;
     border-radius: 10px;
@@ -69,7 +75,6 @@ main > a{
     text-decoration: none;
     font-weight: bolder;
     font-size: small;
-    min-height: 5%;
 }
 
 main > a:hover{
