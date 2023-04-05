@@ -13,7 +13,8 @@ body{
 }
 
 body > img{
-    display: none
+    display: none;
+    pointer-events: none;
 }
 
 main{
