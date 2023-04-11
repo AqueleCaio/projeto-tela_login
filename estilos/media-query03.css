@@ -34,6 +34,8 @@ main{
 
     box-shadow: 1px 1px 20px black;
 
+    transition: width .4s, height .4s;
+    transition-timing-function: ease;
 }
 
 main > header > h1{
