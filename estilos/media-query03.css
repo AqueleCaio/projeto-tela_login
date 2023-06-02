@@ -60,6 +60,8 @@ main > form #isenha, main > form #iemail{
     margin-bottom: 5px;
     border-radius: 10px;
     border: 0px solid rgba(0, 0, 0, 0.863);
+    outline: none;
+    padding-left: 4px;
 }
 
 main > button, main > form .button{
